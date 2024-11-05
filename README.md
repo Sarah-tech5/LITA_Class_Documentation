@@ -14,7 +14,7 @@ Projet 2 : Segmentation de la clientèle pour un service d'abonnement
 
 -------------
 
-### Projet 1: Analyse des performances de vente d'un magasin de détail
+## Projet 1: Analyse des performances de vente d'un magasin de détail
 
 ce projet coonsiste a explorer les données de vente pour découvrir des informations clés telles que les produits les plus vendus, les performances
 régionales et les tendances des ventes mensuelles. 
@@ -27,17 +27,24 @@ L'objectif est de produire un tableau de bord Power BI interactif qui met en év
 la source des donnees utilisees est data SalesData.xlsx fourni par la structure LITA dans le canvas pour etudiant.
 
 ### Tools Used
-- Microsoft Excel [downlaod here](https://www.microsoft.com)
-1. for data cleaning
-2. for data analysis
-
-
-- SQL Structured Query Language for   querying of data
-Power BI 
-1. for visualization
-2. creation de rapport
+1. Microsoft Excel [downlaod here](https://www.microsoft.com)
+- For data cleaning
+- For data analysis
+- For data svisuazalisation
+  
+2. SQL Structured Query Language for querying of data
    
-- Github  for portfolio building
+3. Power BI
+- Pour créer des visualisations de données personnalisées et interactives avec une interface suffisamment simple pour que les utilisateurs finaux
+- Pour creer des rapports et tableaux de bord
+
+4. Github  for portfolio building
+
+------
+
+### Data cleaning
+
+
 
 
 
