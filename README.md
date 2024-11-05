@@ -6,26 +6,31 @@
 ce projet final doit etre la resultante d'un cursus de 4 mois de formation en data analyse au sein de la struccture Ladies In Tech Africa (LITA).
 En tant que data analyste nous devons demontrer toutes les compétences acquises, allant de l'exploration de donnees jusqu'a linterpretation de resultats.
 
-le projet est subdivisé et en 2 groupes:
+le projet est subdivisé et en 2 groupes :
+
 Projet 1 : Analyse des performances de vente d'un magasin de détail
+
 Projet 2 : Segmentation de la clientèle pour un service d'abonnement
 
 -------------
 
 ### Projet 1: Analyse des performances de vente d'un magasin de détail
+
 ce projet coonsiste a explorer les données de vente pour découvrir des informations clés telles que les produits les plus vendus, les performances
 régionales et les tendances des ventes mensuelles. 
 
-L'objectif est de produire un tableau de bord Power BI interactif qui
-met en évidence ces résultats.
+L'objectif est de produire un tableau de bord Power BI interactif qui met en évidence ces résultats.
+
+-------
 
 ### Data Sources
-la 1ere source des donnees utilisees est data SalesData.xlsx fourni par la structure LITA dans le canvas de pour etudiant.
+la source des donnees utilisees est data SalesData.xlsx fourni par la structure LITA dans le canvas pour etudiant.
 
 ### Tools Used
 - Microsoft Excel [downlaod here](https://www.microsoft.com)
 1. for data cleaning
 2. for data analysis
+
 
 - SQL Structured Query Language for   querying of data
 Power BI 
