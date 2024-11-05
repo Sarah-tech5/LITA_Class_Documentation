@@ -150,6 +150,8 @@ WHERE ProductID NOT IN (
 ### Data visualization 
 
 1. Excel
+
+   
 ![pivot table customers](https://github.com/user-attachments/assets/08aa143d-4ad2-45d6-98e5-aa0bdb74e02b)
 
 
