@@ -76,37 +76,72 @@ The dashboard should include a sales overview, top-performing products, and regi
 ### Data Analysis
 This is where we include some basic lines of code or queries or even some of the DAX expressions used during your analysis
 
-'''SQL
-### 1. Récupérer le total des ventes pour chaque catégorie de produits
-sql
+```SQL
+1. Retrieve the total sales for each product category
+   
 SELECT ProductCategory, SUM(TotalPrice) AS TotalSales
 FROM Sales
 GROUP BY ProductCategory;
 
-
-### 2. Trouver le nombre de transactions de vente dans chaque région
-sql
+3. Fnd the number of sales transactions in each region
+   
 SELECT Region, COUNT(*) AS NumberOfTransactions
 FROM Sales
 GROUP BY Region;
 
-
-### 3. Trouver le produit le plus vendu en fonction de la valeur totale des ventes
-sql
+4. Fnd the highest-selling product by total sales value
+   
 SELECT ProductID, SUM(TotalPrice) AS TotalSales
 FROM Sales
 GROUP BY ProductID
 ORDER BY TotalSales DESC
 LIMIT 1;
 
-
-### 4. Calculer le revenu total par produit
-sql
+5. Calculate total revenue per product
+   
 SELECT ProductID, SUM(TotalPrice) AS TotalRevenue
 FROM Sales
 GROUP BY ProductID;
 
+6. Calculate monthly sales totals for the current year
+   
+SELECT STRFTIME('%m', TransactionDate) AS Month, SUM(TotalPrice) AS MonthlySales
+FROM Sales
+WHERE STRFTIME('%Y', TransactionDate) = STRFTIME('%Y', 'now')
+GROUP BY Month;
 
+7. Fnd the top 5 customers by total purchase amount
+   
+SELECT CustomerID, SUM(TotalPrice) AS TotalSpent
+FROM Sales
+GROUP BY CustomerID
+ORDER BY TotalSpent DESC
+LIMIT 5;
+
+8. Calculate the percentage of total sales contributed by each region
+   
+WITH RegionalSales AS (
+    SELECT Region, SUM(TotalPrice) AS RegionalTotal
+    FROM Sales
+    GROUP BY Region
+), TotalSales AS (
+    SELECT SUM(TotalPrice) AS GrandTotal
+    FROM Sales
+)
+SELECT RegionalSales.Region,
+       (RegionalSales.RegionalTotal * 100.0 / TotalSales.GrandTotal) AS SalesPercentage
+FROM RegionalSales, TotalSales;
+
+9. Identify products with no sales in the last quarter
+
+SELECT ProductID
+FROM Products
+WHERE ProductID NOT IN (
+    SELECT DISTINCT ProductID
+    FROM Sales
+    WHERE TransactionDate >= DATE('now', '-3 months')
+);
+```
 
 
 
