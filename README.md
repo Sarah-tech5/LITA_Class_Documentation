@@ -3,32 +3,32 @@
 # Project Title: final project
 
 ## Project Overview
-ce projet final doit etre la resultante d'un cursus de 4 mois de formation en data analyse au sein de la struccture Ladies In Tech Africa (LITA).
-En tant que data analyste nous devons demontrer toutes les compétences acquises, allant de l'exploration de donnees jusqu'a linterpretation de resultats.
+This final project must be the result of a 4-month training course in data analysis within the Ladies In Tech Africa (LITA) structure. 
+As a data analyst, we must demonstrate all the skills acquired, ranging from data exploration to the interpretation of results.
 
-le projet est subdivisé et en 2 groupes :
+The project is divided into 2 groups:
 
-Projet 1 : Analyse des performances de vente d'un magasin de détail
+Project 1: Analysis of sales performance of a retail store
 
-Projet 2 : Segmentation de la clientèle pour un service d'abonnement
+Project 2: Customer segmentation for a subscription service
 
 -------------
 
-## Projet 1: Analyse des performances de vente d'un magasin de détail
+## Project 1: Analysis of sales performance of a retail store
 
-ce projet coonsiste a explorer les données de vente pour découvrir des informations clés telles que les produits les plus vendus, les performances
-régionales et les tendances des ventes mensuelles. 
-
-L'objectif est de produire un tableau de bord Power BI interactif qui met en évidence ces résultats.
+This project involves exploring sales data to uncover key insights such as top-selling products, regional performance, and monthly sales trends. 
+The goal is to produce an interactive Power BI dashboard that highlights these findings.
 
 -------
 
 ### Data Sources
-la source des donnees utilisees est data SalesData.xlsx fourni par la structure LITA dans le canvas pour etudiant.
+
+The source of the data used is data SalesData.xlsx provided by the LITA structure in the student canvas.
 
 ----
 
 ### Tools Used
+
 1. Microsoft Excel [downlaod here](https://www.microsoft.com)
 - For data cleaning
 - For data analysis
@@ -37,15 +37,17 @@ la source des donnees utilisees est data SalesData.xlsx fourni par la structure 
 2. SQL Structured Query Language for querying of data
    
 3. Power BI
-- Pour créer des visualisations de données personnalisées et interactives avec une interface suffisamment simple pour que les utilisateurs finaux
-- Pour creer des rapports et tableaux de bord
+- To create custom, interactive data visualizations with an interface simple enough for end users
+- To create reports and dashboards
 
-4. Github  for portfolio building
+4. Github for portfolio building
 
 ------
 
 ### Data cleaning
-In the initial phase of data cleaning and preparations, we perform the following action;
+
+We take the following steps in the first stage of data preparation and cleaning :
+
 1. Data loading and inspection
 2. Handing missing variables
 3. Data cleaning and formatting
@@ -53,7 +55,8 @@ In the initial phase of data cleaning and preparations, we perform the following
 -----
 
 ### Exploratory Data Analysis
-EDA involved the exploring of the data to answer some question about the data such as :
+
+EDA entailed examining the data to get answers to certain questions concerning it, including :
 
 1. Excel
 - Use pivot tables to summarize total sales by product, region, and month
@@ -76,7 +79,8 @@ The dashboard should include a sales overview, top-performing products, and regi
 -----
 
 ### Data Analysis
-This is where we include some basic lines of code or queries or even some of the DAX expressions used during your analysis
+
+Here we give simple lines of code, queries or even some DAX expressions that we used in our analysis.
 
 ```SQL
 1. Retrieve the total sales for each product category
