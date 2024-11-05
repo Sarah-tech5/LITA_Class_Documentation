@@ -145,7 +145,11 @@ WHERE ProductID NOT IN (
 );
 ```
 
+-----
 
+### Data visualization 
+
+1. Excel
 
 
 
