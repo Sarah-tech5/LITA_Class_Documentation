@@ -89,13 +89,13 @@ SELECT ProductCategory, SUM(TotalPrice) AS TotalSales
 FROM Sales
 GROUP BY ProductCategory;
 
-3. Fnd the number of sales transactions in each region
+2. Fnd the number of sales transactions in each region
    
 SELECT Region, COUNT(*) AS NumberOfTransactions
 FROM Sales
 GROUP BY Region;
 
-4. Fnd the highest-selling product by total sales value
+3. Fnd the highest-selling product by total sales value
    
 SELECT ProductID, SUM(TotalPrice) AS TotalSales
 FROM Sales
@@ -103,20 +103,20 @@ GROUP BY ProductID
 ORDER BY TotalSales DESC
 LIMIT 1;
 
-5. Calculate total revenue per product
+4. Calculate total revenue per product
    
 SELECT ProductID, SUM(TotalPrice) AS TotalRevenue
 FROM Sales
 GROUP BY ProductID;
 
-6. Calculate monthly sales totals for the current year
+5. Calculate monthly sales totals for the current year
    
 SELECT STRFTIME('%m', TransactionDate) AS Month, SUM(TotalPrice) AS MonthlySales
 FROM Sales
 WHERE STRFTIME('%Y', TransactionDate) = STRFTIME('%Y', 'now')
 GROUP BY Month;
 
-7. Fnd the top 5 customers by total purchase amount
+6. Fnd the top 5 customers by total purchase amount
    
 SELECT CustomerID, SUM(TotalPrice) AS TotalSpent
 FROM Sales
@@ -124,7 +124,7 @@ GROUP BY CustomerID
 ORDER BY TotalSpent DESC
 LIMIT 5;
 
-8. Calculate the percentage of total sales contributed by each region
+7. Calculate the percentage of total sales contributed by each region
    
 WITH RegionalSales AS (
     SELECT Region, SUM(TotalPrice) AS RegionalTotal
@@ -138,7 +138,7 @@ SELECT RegionalSales.Region,
        (RegionalSales.RegionalTotal * 100.0 / TotalSales.GrandTotal) AS SalesPercentage
 FROM RegionalSales, TotalSales;
 
-9. Identify products with no sales in the last quarter
+8. Identify products with no sales in the last quarter
 
 SELECT ProductID
 FROM Products
