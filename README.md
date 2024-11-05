@@ -303,16 +303,19 @@ FROM Customers;
 
 1. Excel
 
-   
-![pivot table customers](https://github.com/user-attachments/assets/08aa143d-4ad2-45d6-98e5-aa0bdb74e02b)
+
+
+
 
 
 
 2. Power BI
-![Sales analysis 1](https://github.com/user-attachments/assets/66220540-e308-4d73-98dc-1a9d7fd9794f)
+![Customers analysis 1](https://github.com/user-attachments/assets/b5de35b7-3a0c-4ab4-80af-3f881bfda42c)
 
 
-![Sales analysis 2](https://github.com/user-attachments/assets/85789f79-34e5-4b7e-872e-d81923eefe05)
+
+![Customers analysis 2](https://github.com/user-attachments/assets/a3ba0099-8a42-4337-95be-e9087b04aea6)
+
 
 --------
 
