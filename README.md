@@ -19,10 +19,16 @@ met en évidence ces résultats.
 la 1ere source des donnees utilisees est data SalesData.xlsx fourni par la structure LITA dans le canvas de pour etudiant.
 
 ### Tools Used
-Microsoft Excel for data cleaning, amalysis
-SQL Structured Query Language for   querying of data
-Power BI for visualization et la creation de rapport. 
-Github  for portfolio building
+- Microsoft Excel 
+1. for data cleaning
+2. for data analysis
+
+- SQL Structured Query Language for   querying of data
+Power BI 
+1. for visualization
+2. creation de rapport
+   
+- Github  for portfolio building
 
 
 
