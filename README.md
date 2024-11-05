@@ -156,6 +156,11 @@ WHERE ProductID NOT IN (
 
 
 
+2. Power BI
+
+
+
+
 
 
 Résumé : Dans ce projet, vous êtes chargé d’analyser les performances de vente d’un magasin de détail.
