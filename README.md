@@ -16,7 +16,11 @@ L'objectif est de produire un tableau de bord Power BI interactif qui
 met en évidence ces résultats.
 
 ### Data Sources
-la 1ere source des donnees utilisees est data SalesData.xlsx fiurni par la structure LITA dans le canvas de chaue etudiant.
+la 1ere source des donnees utilisees est data SalesData.xlsx fourni par la structure LITA dans le canvas de pour etudiant.
+
+### Tools Used
+Microsoft Excel for data cleaning, amalysis
+Power BI for visualization et la creation de rapport.
 
 
 
