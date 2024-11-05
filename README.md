@@ -157,6 +157,11 @@ WHERE ProductID NOT IN (
 
 
 2. Power BI
+![Sales analysis 1](https://github.com/user-attachments/assets/66220540-e308-4d73-98dc-1a9d7fd9794f)
+
+
+![Sales analysis 2](https://github.com/user-attachments/assets/85789f79-34e5-4b7e-872e-d81923eefe05)
+
 
 
 
