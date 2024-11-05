@@ -19,7 +19,7 @@ met en évidence ces résultats.
 la 1ere source des donnees utilisees est data SalesData.xlsx fourni par la structure LITA dans le canvas de pour etudiant.
 
 ### Tools Used
-- Microsoft Excel 
+- Microsoft Excel [downlaod here](https://www.microsoft.com)
 1. for data cleaning
 2. for data analysis
 
