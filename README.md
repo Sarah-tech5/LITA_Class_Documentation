@@ -20,7 +20,9 @@ la 1ere source des donnees utilisees est data SalesData.xlsx fourni par la struc
 
 ### Tools Used
 Microsoft Excel for data cleaning, amalysis
-Power BI for visualization et la creation de rapport.
+SQL Structured Query Language for   querying of data
+Power BI for visualization et la creation de rapport. 
+Github  for portfolio building
 
 
 
