@@ -303,6 +303,7 @@ FROM Customers;
 
 1. Excel
 
+![pivot table customers](https://github.com/user-attachments/assets/d091bbc4-c61e-4742-b21e-f4f8b7d2277a)
 
 
 
