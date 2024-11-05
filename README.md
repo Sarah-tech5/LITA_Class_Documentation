@@ -150,7 +150,7 @@ WHERE ProductID NOT IN (
 ### Data visualization 
 
 1. Excel
-[https://github.com/Sarah-tech5/LITA_Class_Documentation/commit/2d634e748f9bbea08e82dc4b62e65f0e9bbc8606]
+
 
 
 
