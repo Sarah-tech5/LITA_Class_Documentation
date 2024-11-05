@@ -3,15 +3,19 @@
 # Project Title: final project
 
 ## Project Overview
-ce projet final doit etre la resultante d'un cursus de 4 mois de formation en data analyse dans lA STRUCTURE lita.....
-En tant que data analyste nous devons demontrer toutes les compétences acquises, allant de lexploration de donnees jusqu'a linterpretation de resultats.
+ce projet final doit etre la resultante d'un cursus de 4 mois de formation en data analyse au sein de la struccture Ladies In Tech Africa (LITA).
+En tant que data analyste nous devons demontrer toutes les compétences acquises, allant de l'exploration de donnees jusqu'a linterpretation de resultats.
+
 le projet est subdivisé et en 2 groupes:
 Projet 1 : Analyse des performances de vente d'un magasin de détail
 Projet 2 : Segmentation de la clientèle pour un service d'abonnement
 
-### projet 1: Analyse des performances de vente d'un magasin de détail
+-------------
+
+### Projet 1: Analyse des performances de vente d'un magasin de détail
 ce projet coonsiste a explorer les données de vente pour découvrir des informations clés telles que les produits les plus vendus, les performances
 régionales et les tendances des ventes mensuelles. 
+
 L'objectif est de produire un tableau de bord Power BI interactif qui
 met en évidence ces résultats.
 
