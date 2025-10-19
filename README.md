@@ -32,7 +32,7 @@ The source of the data used is data SalesData.xlsx provided by the LITA structur
 1. Microsoft Excel [downlaod here](https://www.microsoft.com)
 - For data cleaning
 - For data analysis
-- For data svisuazalisation
+- For data visuazalisation
   
 2. SQL Structured Query Language for querying of data
    
